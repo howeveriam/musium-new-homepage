@@ -32,7 +32,7 @@ export default function Consultation(){
     signal:AbortSignal.timeout(30000)
    });
    const result=await response.json();
-   if(!response.ok||result.ok!==true)throw new Error('not accepted');
+   if(!response.ok||typeof result!=='object'||result===null||!('ok' in result)||result.ok!==true)throw new Error('not accepted');
    setReceived(true);
   }catch{setSendError('We could not confirm your request. Your entries are still here. Please try again, or email pianomusium@gmail.com.');}
   finally{submitting.current=false;setSending(false);}
