@@ -11,16 +11,16 @@ export default function HeroSection() {
   return (
     <div className="content-stretch flex flex-col gap-[80px] items-start justify-center pb-[var(--other\/gap\/16,48px)] pt-[var(--other\/gap\/15,40px)] px-[100px] relative size-full" data-node-id="5:1096" data-name="Hero Section">
       <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start relative shrink-0 text-center w-full" data-node-id="87:380">
-        <p className="font-sans font-semibold leading-[0] relative shrink-0 text-[72px] text-[color:var(--color\/dark\/500,#04080d)] tracking-[-1.44px] w-full whitespace-pre-wrap" data-node-id="5:1097">
+        <h1 className="font-sans font-semibold leading-[0] relative shrink-0 text-[72px] text-[color:var(--color\/dark\/500,#04080d)] tracking-[-1.44px] w-full whitespace-pre-wrap" data-node-id="5:1097">
           <span className="leading-[1.25]">
-            {`Studio lessons in Schaumburg `}
+            {`Piano lessons for Schaumburg `}
             <br aria-hidden />
             with Dami Jeong
             <br aria-hidden />
           </span>
           <span className="leading-[1.25] text-[#2b75cc]">MTNA* award-winning</span>
           <span className="leading-[1.25]">{` teacher`}</span>
-        </p>
+        </h1>
         <p className="font-sans font-normal leading-[1.4] relative shrink-0 text-[16px] text-[color:var(--color\/gray\/700,#7b7b7b)] w-full" data-node-id="87:378">
           *MTNA (Music Teachers National Association)
         </p>
@@ -63,7 +63,7 @@ export default function HeroSection() {
         </div>
         <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--other\/gap\/9,16px)] h-full items-start min-w-px relative" data-node-id="5:1113" data-name="Row_1">
           <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+26px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[648px_700px] size-[700px] top-1/2" data-node-id="5:2899" style={{ maskImage: `url("${imgImage4}")` }} data-name="image 4">
-            <img alt="Dami Jeong guiding a student at the piano" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage5} />
+            <img fetchPriority="high" alt="Dami Jeong guiding a student at the piano" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage5} />
           </div>
         </div>
         <div className="content-stretch flex flex-col gap-[var(--other\/gap\/9,16px)] h-full items-start relative shrink-0 w-[280px]" data-node-id="5:1116" data-name="Row_1">

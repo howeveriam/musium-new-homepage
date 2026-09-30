@@ -12,36 +12,36 @@ function MusiumCircleLogo2({ className }: { className?: string }) {
     <div className={className || "overflow-clip relative size-[64px]"} data-node-id="16:305" data-name="musium-circle-logo 2">
       <div className="absolute contents inset-0" data-node-id="16:280" data-name="Page-1">
         <div className="absolute contents inset-0" data-node-id="16:281" data-name="Group-2">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+          <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
           <div className="absolute contents inset-[30.66%_30.68%_30.29%_30.26%]" data-node-id="16:283" data-name="logo">
             <div className="absolute contents inset-[30.66%_30.68%_30.29%_30.26%]" data-node-id="16:284" data-name="Group">
               <div className="absolute contents inset-[30.66%_57.66%_30.29%_30.26%]" data-node-id="16:285" data-name="Group-3">
                 <div className="absolute inset-[30.66%_57.66%_30.29%_30.26%]" data-node-id="16:286" data-name="Mask group">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup} />
+                  <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup} />
                 </div>
               </div>
               <div className="absolute contents inset-[30.66%_43.94%_30.29%_43.52%]" data-node-id="16:290" data-name="Group-6">
                 <div className="absolute inset-[30.66%_43.94%_30.29%_43.52%]" data-node-id="16:291" data-name="Mask group">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup1} />
+                  <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup1} />
                 </div>
               </div>
               <div className="absolute contents inset-[30.66%_30.68%_30.29%_57.25%]" data-node-id="16:295" data-name="Group-9">
                 <div className="absolute inset-[30.66%_30.68%_30.29%_57.25%]" data-node-id="16:296" data-name="Mask group">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup2} />
+                  <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup2} />
                 </div>
               </div>
               <div className="absolute inset-[44.43%_51.92%_30.29%_45.74%]" data-node-id="16:300" data-name="Fill-36">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFill36} />
+                <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgFill36} />
               </div>
               <div className="absolute inset-[44.43%_37.15%_30.29%_60.48%]" data-node-id="16:301" data-name="Fill-38">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFill38} />
+                <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgFill38} />
               </div>
             </div>
             <div className="absolute inset-[44.74%_59.21%_31.84%_40.26%]" data-node-id="16:302" data-name="Rectangle">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
             </div>
             <div className="absolute inset-[44.74%_44.74%_31.84%_54.74%]" data-node-id="16:303" data-name="Rectangle-Copy">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Footer() {
     <div className="bg-[#2b75cc] content-stretch flex flex-col gap-[var(--other\/gap\/13,32px)] items-start pb-[var(--other\/gap\/13,32px)] pt-[var(--other\/gap\/17,64px)] px-[100px] relative size-full" data-node-id="85:307" data-name="Footer">
       <div className="border-[var(--color\/gray\/200,#dfdfdf)] border-b border-solid content-stretch flex gap-[var(--other\/gap\/17,64px)] items-center pb-[var(--other\/gap\/12,28px)] relative shrink-0 w-full" data-node-id="85:308" data-name="Consultation">
         <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start min-w-px relative text-white" data-node-id="85:373">
-          <p className="font-sans font-semibold leading-[1.26] relative shrink-0 text-[48px] tracking-[-0.96px] w-[784px]" data-node-id="85:309">{`Not Sure Where to Start? Let's Talk.`}</p>
+          <h2 className="font-sans font-semibold leading-[1.26] relative shrink-0 text-[48px] tracking-[-0.96px] w-[784px]" data-node-id="85:309">{`Not Sure Where to Start? Let's Talk.`}</h2>
           <p className="font-sans font-normal leading-[1.4] relative shrink-0 text-[16px] whitespace-nowrap" data-node-id="85:371">{`Book a free consultation and we'll find the right lesson plan for you or your child. No pressure — just piano.`}</p>
         </div>
         <div className="content-stretch flex flex-[1_0_0] gap-[var(--other\/gap\/9,16px)] items-center justify-end min-w-px relative" data-node-id="85:310">
@@ -66,7 +66,7 @@ export default function Footer() {
               </p>
               <div className="bg-[#2b75cc] content-stretch flex flex-col items-start p-[var(--other\/gap\/7,12px)] relative rounded-[var(--other\/radius\/full-corner,999px)] shrink-0" data-node-id="I85:312;4812:8775" data-name="Button">
                 <div className="relative shrink-0 size-[24px]" data-node-id="I85:312;4812:8775;15:5018" data-name="Huge-icon/user/outline/user">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHugeIconArrowsOutlineArrowRight} />
+                  <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgHugeIconArrowsOutlineArrowRight} />
                 </div>
               </div>
             </div>

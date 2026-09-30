@@ -6,9 +6,9 @@ export default function SearchByCategory() {
   return (
     <div className="content-stretch flex flex-col gap-[var(--other\/gap\/17,64px)] items-start pb-[var(--other\/gap\/19,120px)] pt-[var(--other\/gap\/18,80px)] px-[100px] relative size-full" data-node-id="87:538" data-name="Search by Category">
       <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--other\/gap\/9,16px)] items-start relative shrink-0 text-center w-full" data-node-id="87:539" data-name="Text">
-        <p className="font-sans font-semibold leading-[1.26] relative shrink-0 text-[48px] text-[color:var(--color\/dark\/500,#04080d)] tracking-[-0.96px] w-full" data-node-id="87:540">
+        <h2 className="font-sans font-semibold leading-[1.26] relative shrink-0 text-[48px] text-[color:var(--color\/dark\/500,#04080d)] tracking-[-0.96px] w-full" data-node-id="87:540">
           Find Your Perfect Lesson
-        </p>
+        </h2>
         <p className="font-sans font-normal leading-[1.4] relative shrink-0 text-[16px] text-[color:var(--color\/gray\/700,#7b7b7b)] w-full" data-node-id="87:541">
           One-on-one lessons for kids and adults — pick the path that fits you.
         </p>
@@ -18,7 +18,7 @@ export default function SearchByCategory() {
           <div className="border border-[var(--color\/gray\/200,#dfdfdf)] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[var(--sds-size-space-800,32px)] items-start min-w-px p-[var(--other\/gap\/13,32px)] relative rounded-[var(--other\/radius\/xl,16px)]" data-node-id="87:544" data-name="1">
             <div className="content-stretch flex gap-[32px] items-center relative shrink-0 w-full" data-node-id="87:545">
               <div className="relative shrink-0 size-[48px]" data-node-id="87:546" data-name="supervisor_account_32dp_E3E3E3_FILL0_wght400_GRAD0_opsz40 1">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSupervisorAccount32DpE3E3E3Fill0Wght400Grad0Opsz401} />
+                <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgSupervisorAccount32DpE3E3E3Fill0Wght400Grad0Opsz401} />
               </div>
               <p className="[word-break:break-word] font-sans font-semibold leading-[1.5] relative shrink-0 text-[20px] text-[color:var(--color\/dark\/500,#04080d)] text-right tracking-[-0.4px] w-[248px]" data-node-id="87:548">
                 Children: ages 6-12
@@ -47,7 +47,7 @@ export default function SearchByCategory() {
           <div className="border border-[var(--color\/gray\/200,#dfdfdf)] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[var(--sds-size-space-800,32px)] items-start min-w-px p-[var(--other\/gap\/13,32px)] relative rounded-[var(--other\/radius\/xl,16px)]" data-node-id="89:708" data-name="6">
             <div className="content-stretch flex gap-[32px] items-center relative shrink-0 w-full" data-node-id="89:709">
               <div className="relative shrink-0 size-[48px]" data-node-id="89:716" data-name="man_32dp_E3E3E3_FILL0_wght400_GRAD0_opsz40 1">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMan32DpE3E3E3Fill0Wght400Grad0Opsz401} />
+                <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgMan32DpE3E3E3Fill0Wght400Grad0Opsz401} />
               </div>
               <p className="[word-break:break-word] font-sans font-semibold leading-[1.5] relative shrink-0 text-[20px] text-[color:var(--color\/dark\/500,#04080d)] text-right tracking-[-0.4px] w-[248px]" data-node-id="89:712">
                 Adults: all levels
@@ -76,7 +76,7 @@ export default function SearchByCategory() {
           <div className="bg-[var(--color\/primary\/50,#f2f6fd)] content-stretch flex flex-[1_0_0] flex-col gap-[32px] h-[306px] items-center justify-center min-w-px px-[24px] py-[32px] relative rounded-[var(--other\/radius\/xl2,24px)]" data-node-id="89:700" data-name="5">
             <div className="content-stretch flex gap-[32px] h-[48px] items-center relative shrink-0 w-full" data-node-id="89:701">
               <div className="relative shrink-0 size-[40px]" data-node-id="89:840" data-name="checkbook_32dp_04080D_FILL0_wght400_GRAD0_opsz40 1">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheckbook32Dp04080DFill0Wght400Grad0Opsz401} />
+                <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheckbook32Dp04080DFill0Wght400Grad0Opsz401} />
               </div>
               <p className="[word-break:break-word] font-sans font-semibold leading-[1.5] relative shrink-0 text-[20px] text-[color:var(--color\/dark\/500,#04080d)] text-right tracking-[-0.4px] w-[248px]" data-node-id="89:704">
                 Tuition

@@ -8,16 +8,16 @@ export default function VideoList({category}:{category:string}) {
       const href = `https://www.youtube.com/watch?v=${video.id}`;
       return <article className="lesson-video-card" key={video.id}>
         <a className="lesson-video-thumbnail" href={href} target="_blank" rel="noopener noreferrer" aria-label={`Watch ${video.englishTitle}`}>
-          <img src={video.thumbnail} alt={video.englishTitle} />
+          <img loading="lazy" decoding="async" src={video.thumbnail} alt={video.englishTitle} />
         </a>
         <div className="lesson-video-details">
           <div className="lesson-video-heading">
-            <div className="lesson-video-meta"><span>Free Sample Lesson</span><span className="lesson-video-duration"><img src="/musium-media-v2/5-1265-f1f6a.svg" alt="" />{video.duration}</span></div>
+            <div className="lesson-video-meta"><span>Free Sample Lesson</span><span className="lesson-video-duration"><img loading="lazy" decoding="async" src="/musium-media-v2/5-1265-f1f6a.svg" alt="" />{video.duration}</span></div>
             <h3>{video.englishTitle}</h3>
           </div>
           <div className="lesson-video-bottom">
             <div className="lesson-video-avatars">
-              {video.avatars.map((avatar,i) => <img src={avatar.url} alt={avatar.name} title={avatar.name} key={`${video.id}-${i}`} />)}
+              {video.avatars.map((avatar,i) => <img loading="lazy" decoding="async" src={avatar.url} alt={avatar.name} title={avatar.name} key={`${video.id}-${i}`} />)}
               <a className="lesson-comment-link" href={href} target="_blank" rel="noopener noreferrer" aria-label="View comments on YouTube">+</a>
             </div>
             <a className="lesson-video-watch" href={href} target="_blank" rel="noopener noreferrer">Watch on YouTube →</a>

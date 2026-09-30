@@ -5,7 +5,7 @@ export default function SearchByCategory() {
   return (
     <div className="bg-[#f2f6fd] content-stretch flex flex-col gap-[var(--other\/gap\/17,64px)] items-start pb-[var(--other\/gap\/19,120px)] pt-[var(--other\/gap\/18,80px)] px-[100px] relative size-full" data-node-id="5:1155" data-name="Search by Category">
       <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--other\/gap\/9,16px)] items-start relative shrink-0 text-center w-full" data-node-id="5:1156" data-name="Text">
-        <a className="font-sans font-semibold leading-[1.26] relative shrink-0 text-[48px] text-[color:var(--color\/dark\/500,#04080d)] tracking-[-0.96px] w-full" data-node-id="5:1157" href="#about">About Instructor</a>
+        <h2 className="font-sans font-semibold leading-[1.26] relative shrink-0 text-[48px] text-[color:var(--color\/dark\/500,#04080d)] tracking-[-0.96px] w-full" data-node-id="5:1157">About Instructor</h2>
         <p className="font-sans font-normal leading-[1.4] relative shrink-0 text-[16px] text-[color:var(--color\/gray\/700,#7b7b7b)] w-full" data-node-id="5:1158">
           Dami Jeong (Formerly known as Hyeyoon Jeong)
         </p>
@@ -18,7 +18,7 @@ export default function SearchByCategory() {
                 Education
               </p>
               <div className="relative shrink-0 size-[48px]" data-node-id="94:109" data-name="auto_stories_48dp_04080D_FILL0_wght400_GRAD0_opsz48 1">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAutoStories48Dp04080DFill0Wght400Grad0Opsz481} />
+                <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgAutoStories48Dp04080DFill0Wght400Grad0Opsz481} />
               </div>
             </div>
             <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--other\/gap\/5,8px)] items-start relative shrink-0 w-full" data-node-id="94:89">
@@ -64,7 +64,7 @@ export default function SearchByCategory() {
                 Selected Performance Highlights
               </p>
               <div className="relative shrink-0 size-[48px]" data-node-id="94:120" data-name="piano_48dp_04080D_FILL0_wght400_GRAD0_opsz48 1">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPiano48Dp04080DFill0Wght400Grad0Opsz481} />
+                <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" src={imgPiano48Dp04080DFill0Wght400Grad0Opsz481} />
               </div>
             </div>
             <div className="content-stretch flex flex-col gap-[var(--other\/gap\/5,8px)] items-start relative shrink-0 w-full" data-node-id="5:1176">
