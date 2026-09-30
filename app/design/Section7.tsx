@@ -1,7 +1,7 @@
 "use client";
 import {useRef,useState} from "react";
 const imgImage1696 = "/musium-media-v2/testimonial-preview-original.png";
-const imgHugeIconMultimediaAndAudioOutlinePlay = "/musium-media-v2/5-1430-b14bd.svg";
+const imgHugeIconMultimediaAndAudioOutlinePlay = "/musium-media-v2/play-button.svg";
 
 export default function Video() {
   const player = useRef<HTMLVideoElement>(null);
@@ -14,8 +14,8 @@ export default function Video() {
         {!playing && <><div className="-translate-x-1/2 -translate-y-1/2 absolute h-[957.692px] left-1/2 top-1/2 w-[1440px]" data-node-id="5:1432" data-name="image 1696">
           <img alt="Students gathered for a studio piano performance" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage1696} />
         </div>
-        <button type="button" onClick={start} aria-label="Play Musium piano performance" className="cursor-pointer -translate-x-1/2 -translate-y-1/2 absolute backdrop-blur-[5px] bg-[rgba(255,255,255,0.7)] border-20 border-[rgba(255,255,255,0.2)] border-solid content-stretch flex flex-col items-start left-1/2 p-[var(--other\/gap\/10,20px)] rounded-[var(--other\/radius\/full-corner,999px)] top-1/2" data-node-id="5:1433" data-name="Button">
-          <div className="relative shrink-0 size-[24px]" data-node-id="I5:1433;15:4086" data-name="Huge-icon/user/outline/user">
+        <button type="button" onClick={start} aria-label="Play Musium piano performance" className="cursor-pointer -translate-x-1/2 -translate-y-1/2 absolute left-1/2 top-1/2 size-[104px] border-0 bg-transparent p-0" data-node-id="5:1433" data-name="Button">
+          <div className="relative shrink-0 size-full" data-node-id="I5:1433;15:4086" data-name="Huge-icon/user/outline/user">
             <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHugeIconMultimediaAndAudioOutlinePlay} />
           </div>
         </button></>}

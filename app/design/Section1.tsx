@@ -43,7 +43,8 @@ export default function HeroSection() {
           <div className="bg-[var(--color\/primary\/50,#f2f6fd)] content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-px overflow-clip px-[var(--other\/gap\/13,32px)] py-[12px] relative rounded-[var(--other\/radius\/xl2,24px)] w-[500px]" data-node-id="5:1109" data-name="5">
             <div className="content-stretch flex flex-col gap-[var(--other\/gap\/13,32px)] items-start relative shrink-0 w-full" data-node-id="5:1110">
               <p className="[word-break:break-word] font-sans font-normal leading-[1.72] min-w-full relative shrink-0 text-[24px] text-[color:var(--color\/dark\/500,#04080d)] tracking-[-0.48px] w-[min-content]" data-node-id="5:1111">
-                As the founder of Musium, Dami brings a pedagogy-first approach to every lesson — patient, structured, and tailored to how each student learns, from first-time beginners to returning pianists.
+                <strong className="block font-bold">30+ Years of Teaching Experience</strong>
+                Award-winning piano instruction for children, adults, and advanced students, combining strong technical training with musical expression and individualized learning.
               </p>
               <div className="bg-[var(--color\/primary\/500,#2b75cc)] content-stretch flex flex-col items-start pl-[var(--other\/gap\/11,24px)] pr-[var(--other\/gap\/3,4px)] py-[var(--other\/gap\/3,4px)] relative rounded-[var(--other\/radius\/full-corner,999px)] shrink-0" data-node-id="5:1112" data-name="Button">
                 <div className="content-stretch flex gap-[var(--other\/gap\/6,10px)] items-center relative shrink-0" data-node-id="I5:1112;15:5020">

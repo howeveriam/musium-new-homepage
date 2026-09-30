@@ -9,10 +9,8 @@ export default function TrustedByCompanies() {
       <div className="bg-white flex items-center justify-center h-[80px] relative shrink-0 w-[160px]" data-node-id="37:211" data-name="01-youtube">
         <img alt="YouTube" className="block h-[36px] w-full max-w-[160px] object-contain pointer-events-none" src={imgImage6} data-node-id="37:212" />
       </div>
-      <div className="bg-white h-[80px] overflow-clip relative shrink-0 w-[160px]" data-node-id="37:213" data-name="02-naver">
-        <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[50px] left-1/2 top-1/2 w-[160px]" data-node-id="37:214" data-name="image 6">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
-        </div>
+      <div className="bg-white flex items-center justify-center h-[80px] min-w-0 relative shrink-0 w-[160px]" data-node-id="37:213" data-name="02-naver">
+        <img alt="Naver Blog" className="block h-[50px] w-full max-w-[160px] object-contain pointer-events-none" src={imgImage7} data-node-id="37:214" />
       </div>
       <div className="bg-white h-[80px] overflow-clip relative shrink-0 w-[160px]" data-node-id="37:215" data-name="03-instagram">
         <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 size-[80px] top-1/2" data-node-id="37:216" data-name="image 7">
