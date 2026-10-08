@@ -62,9 +62,9 @@ export default function Header() {
         <a className="relative shrink-0" data-node-id="94:148" href="#faq">FAQ</a>
         <a className="relative shrink-0" data-node-id="94:149" href="#contact">Contact Us</a>
       </div>
-      <div data-name="LangToggle" className="inline-flex h-[48px] shrink-0 items-stretch overflow-hidden rounded-full border-2 border-solid border-[#2b75cc] box-border font-sans text-[16px] font-medium leading-5 ml-6">
-        <a href="https://musium-ko-preview.pages.dev/" className="flex min-w-0 flex-1 basis-0 items-center justify-center whitespace-nowrap bg-[#2b75cc] px-[22px] py-[12px] text-[#ffffff] no-underline">Korean</a>
-        <span aria-current="page" className="flex min-w-0 flex-1 basis-0 items-center justify-center whitespace-nowrap bg-[#ffffff] px-[22px] py-[12px] text-[#1a1a1a]">English</span>
+      <div data-name="LangToggle" className="box-border inline-flex h-[48px] w-[208px] shrink-0 items-center rounded-full border-2 border-[#2b75cc] bg-[#2b75cc] p-[3px] font-[system-ui] text-[16px] font-medium leading-none ml-6">
+        <a href="https://musium-ko-preview.pages.dev/" lang="ko" className="inline-flex h-full min-w-0 flex-1 items-center justify-center whitespace-nowrap rounded-full text-white no-underline">Korean</a>
+        <span aria-current="page" lang="en" className="inline-flex h-full w-[90px] shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-white text-[#1a1a1a]">English</span>
       </div>
     </div>
   );
