@@ -62,9 +62,28 @@ export default function Header() {
         <a className="relative shrink-0" data-node-id="94:148" href="#faq">FAQ</a>
         <a className="relative shrink-0" data-node-id="94:149" href="#contact">Contact Us</a>
       </div>
-      <div data-name="LangToggle" className="box-border inline-flex h-[48px] w-[208px] shrink-0 items-center rounded-full border-2 border-[#2b75cc] bg-[#2b75cc] p-[3px] font-[system-ui] text-[16px] font-medium leading-none ml-6">
-        <a href="https://musium-ko-preview.pages.dev/" lang="ko" className="inline-flex h-full min-w-0 flex-1 items-center justify-center whitespace-nowrap rounded-full text-white no-underline">Korean</a>
-        <span aria-current="page" lang="en" className="inline-flex h-full w-[90px] shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-white text-[#1a1a1a]">English</span>
+      <div
+        data-name="LangToggle"
+        className="box-border relative inline-flex h-[48px] w-[208px] shrink-0 items-center rounded-full border-2 border-[#2b75cc] bg-[#2b75cc] p-[3px] font-[system-ui] text-[16px] font-medium leading-none ml-6 overflow-hidden"
+      >
+        <div
+          aria-hidden="true"
+          className="absolute left-1/2 top-[3px] bottom-[3px] z-0 w-[calc(50%-3px)] rounded-full bg-white transition-[left,right] duration-300 ease-in-out"
+        />
+        <div className="relative z-10 flex h-full w-full">
+          <a
+            href="https://musium-ko-preview.pages.dev/"
+            className="flex flex-1 items-center justify-center text-white no-underline"
+          >
+            Korean
+          </a>
+          <span
+            aria-current="page"
+            className="flex flex-1 items-center justify-center text-[#1a1a1a]"
+          >
+            English
+          </span>
+        </div>
       </div>
     </div>
   );
