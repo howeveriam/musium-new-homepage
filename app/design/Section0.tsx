@@ -62,6 +62,10 @@ export default function Header() {
         <a className="relative shrink-0" data-node-id="94:148" href="#faq">FAQ</a>
         <a className="relative shrink-0" data-node-id="94:149" href="#contact">Contact Us</a>
       </div>
+      <div className="flex items-center border-2 border-[#2b75cc] rounded-full overflow-hidden shrink-0 ml-6" data-name="LangToggle">
+        <a href="https://musium-ko-preview.pages.dev/" className="px-[18px] py-[8px] font-sans text-[15px] font-medium text-white bg-[#2b75cc] leading-[1.4] no-underline">Korean</a>
+        <span className="px-[18px] py-[8px] font-sans text-[15px] font-medium text-[#04080d] bg-white leading-[1.4]">English</span>
+      </div>
     </div>
   );
 }
