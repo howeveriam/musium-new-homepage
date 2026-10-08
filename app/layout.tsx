@@ -5,10 +5,10 @@ import "./musium.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://musium.org"),
   title: "Piano Lessons for Schaumburg | Musium · Dami Jeong",
-  description: "Award-winning private piano lessons for children and adults in the Schaumburg area. Study with Dami Jeong at her Hoffman Estates studio or online.",
+  description: "Award-winning private piano lessons for children and adults in the Schaumburg area. Study with Dami Jeong at her Schaumburg studio or online.",
   alternates: { canonical: "/" },
-  openGraph: { title: "Piano Lessons for Schaumburg | Musium", description: "Private piano lessons with award-winning teacher Dami Jeong. Hoffman Estates studio and online lessons for children and adults.", url: "/", siteName: "Musium", locale: "en_US", type: "website" },
-  twitter: { card: "summary", title: "Piano Lessons for Schaumburg | Musium", description: "Private piano lessons with Dami Jeong, serving Schaumburg from her Hoffman Estates studio and online." },
+  openGraph: { title: "Piano Lessons for Schaumburg | Musium", description: "Private piano lessons with award-winning teacher Dami Jeong. Schaumburg studio and online lessons for children and adults.", url: "/", siteName: "Musium", locale: "en_US", type: "website" },
+  twitter: { card: "summary", title: "Piano Lessons for Schaumburg | Musium", description: "Private piano lessons with Dami Jeong, serving Schaumburg from her Schaumburg studio and online." },
   robots: { index: false, follow: false },
   other: {
     "codex-preview": "development",

@@ -17,7 +17,7 @@ export default function KeyPoints() {
             The Teacher You Need, The Progress You Deserve.
           </h2>
           <p className="font-sans font-normal leading-[1.4] relative shrink-0 text-[16px] w-full" data-node-id="5:1232">
-            Private piano lessons in Hoffman Estates and online — for children and adults, beginners to advanced.
+            Private piano lessons in Schaumburg and online — for children and adults, beginners to advanced.
           </p>
         </div>
         <div className="content-stretch flex flex-col gap-[var(--other\/gap\/13,32px)] items-start relative shrink-0 w-full" data-node-id="5:1233" data-name="All Steps">
@@ -59,7 +59,7 @@ export default function KeyPoints() {
                   Studio or Online
                 </p>
                 <p className="font-sans font-normal leading-[1.4] relative shrink-0 text-[16px] w-full" data-node-id="5:1256">
-                  Learn in person at the Hoffman Estates studio, or join live from anywhere with online lessons.
+                  Learn in person at the Schaumburg studio, or join live from anywhere with online lessons.
                 </p>
               </div>
             </div>
