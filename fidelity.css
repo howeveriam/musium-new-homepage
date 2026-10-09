@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/site/noto-sans-kr-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/site/noto-sans-kr-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/site/noto-sans-kr-600.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/site/plus-jakarta-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/site/plus-jakarta-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/site/plus-jakarta-600.ttf) format('truetype');
+}
+
+:root{--font-sans:"Plus Jakarta Sans",Arial,sans-serif}body{font-family:"Plus Jakarta Sans",Arial,sans-serif!important}.design-section{font-family:"Plus Jakarta Sans",Arial,sans-serif}.design-section h2,.design-section p{margin:0}.section-features{font-family:"Google Sans",Arial,sans-serif}.section-about [data-node-id="5:1172"]{min-height:456px}.section-about [data-node-id="5:1160"]{align-items:stretch}.section-testimonials>div{padding-top:120px}.section-features>div{max-width:none}.section-studio [data-node-id="5:1431"]{height:100%}.section-studio [data-node-id="5:1432"]{height:957.692px;width:1440px;left:50%;top:50%;transform:none}.section-studio [data-node-id="5:1432"] img{width:100%;height:100%;object-fit:cover}.section-studio .play-performance{padding:0}.design-section [data-consult]{text-align:left}.section-header~main{min-width:0}.design-section img{max-width:none}.section-social img{max-width:100%}.section-social>div{justify-content:space-between}html[lang=ko] .design-section{font-family:"Noto Sans KR",Arial,sans-serif;word-break:keep-all}html[lang=ko] .section-about [data-node-id="80:299"],html[lang=ko] .section-about [data-node-id="80:305"]{flex:1;width:auto}html[lang=ko] .section-about [data-node-id="80:302"]{width:100%}.lesson-video-card a:hover{text-decoration:none}.lesson-video-card .lesson-video-watch:hover{text-decoration:underline}.lesson-video-duration img{max-width:24px}.lesson-video-avatars img{max-width:40px}.section-features [data-node-id="5:1229"]{font-family:"Google Sans",Arial,sans-serif}html[lang=ko] .section-features [data-node-id="5:1229"]{font-family:"Noto Sans KR",Arial,sans-serif}
+@media(max-width:768px){.section-about [data-node-id="5:1172"]{min-height:0}.section-studio [data-node-id="5:1432"]{width:100%;height:100%;transform:none}.section-studio [data-node-id="5:1432"] img{object-fit:cover}.section-studio .play-performance{width:104px;height:104px}.design-section .lesson-video-card{gap:32px}.section-samples [data-node-id="87:606"] video{width:100%;height:auto}}
+
+.section-features{--font-sans:"Google Sans",Arial,sans-serif}.section-about [data-node-id="5:1160"]>div{flex-basis:0;flex-grow:1;min-width:0}.section-about [data-node-id="80:301"],.section-about [data-node-id="80:302"]{width:100%}.section-about [data-node-id="80:299"],.section-about [data-node-id="80:305"]{flex:1;min-width:0;width:auto}.section-lessons [data-node-id="87:543"]>div{flex-basis:0;flex-grow:1;min-width:0}
+/* FAQ spacing follows the Figma frame: 32px between answers, 80px bottom. */
+.faq-content{padding-bottom:80px}.faq-content>p{font-size:16px;line-height:1.4;margin:0}.faq-list{display:flex;flex-direction:column;gap:32px}.faq-list details{padding:0 0 32px}.faq-list summary{font-size:20px;font-weight:600;line-height:1.5;letter-spacing:-.4px}.faq-list details p{margin:8px 0 0;max-width:none;font-size:16px;line-height:1.4}.faq-question{font-weight:600;flex:1;min-width:0}.faq-list summary span{margin-left:24px}.section-testimonials [data-name="All Testimonials"]>div{min-height:288px}.section-testimonials [data-node-id="5:1446"],.section-testimonials [data-node-id="5:1459"],.section-testimonials [data-node-id="5:1472"]{font-weight:500}
+@media(max-width:768px){.faq-content{padding:56px 24px}.faq-list{gap:24px}.faq-list summary{font-size:18px}.faq-list summary span{margin-left:0}}
+.faq-content h2{margin:0 0 16px}.faq-list details{padding-bottom:31px}
+@media(max-width:768px){.section-about [data-node-id="5:1160"]>div,.section-lessons [data-node-id="87:543"]>div{flex:none;flex-basis:auto;min-height:0;height:auto}}
+
+html[lang=ko] body{font-family:"Noto Sans KR",Arial,sans-serif!important}html[lang=ko] .design-section{--font-sans:"Noto Sans KR",Arial,sans-serif}
+.design-section .font-sans{font-family:"Plus Jakarta Sans",Arial,sans-serif}.section-features .font-sans{font-family:"Google Sans",Arial,sans-serif}html[lang=ko] .design-section .font-sans{font-family:"Noto Sans KR",Arial,sans-serif}
+@media(min-width:769px){.section-about [data-node-id="5:1160"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.section-about [data-node-id="5:1160"]>div{height:456px}.section-lessons [data-node-id="87:543"]{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}}
+.section-about [data-node-id="5:1178"]{letter-spacing:-.4px;line-height:1.5}.section-about [data-node-id="5:1178"] li{margin-left:30px}
+@media(max-width:768px){.section-about [data-node-id="5:1160"]{display:flex;flex-direction:column}.section-lessons [data-node-id="87:543"]{display:flex;flex-direction:column}}
+html[lang=ko] .section-about [data-node-id="5:1160"]>div{height:auto;min-height:456px}
+@media(min-width:769px) and (max-width:1300px){.section-about [data-node-id="5:1160"]>div{height:auto;min-height:456px}}
+@media(max-width:768px){html[lang=ko] .section-about [data-node-id="5:1160"]>div{min-height:0}}
+/* One shared radius for every content card. */
+:root{--card-radius:16px}
+.card,.photo,
+.section-about [data-node-id="5:1161"],.section-about [data-node-id="5:1172"],
+.section-lessons [data-node-id="87:544"],.section-lessons [data-node-id="89:708"],.section-lessons [data-node-id="89:700"],
+.sample-category,.lesson-video-thumbnail,
+.section-samples [data-node-id="87:606"],.section-samples [data-node-id="87:606"] video,
+.section-testimonials [data-node-id="5:1439"],.section-testimonials [data-node-id="5:1452"],.section-testimonials [data-node-id="5:1465"]{border-radius:var(--card-radius)}
+/* Center the plus by geometry rather than the font's baseline. */
+.lesson-comment-link{position:relative;font-size:0;line-height:0}
+.lesson-comment-link::before,.lesson-comment-link::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:currentColor}
+.lesson-comment-link::before{width:14px;height:2px}
+.lesson-comment-link::after{width:2px;height:14px}
+/* Banner links keep their existing design slots at every breakpoint. */
+@media(max-width:768px){.section-social>div>a{width:100%;height:60px}.section-social>div>a>div{transform:scale(.6)}}
+/* Cards in a desktop lesson row share the tallest content height. */
+@media(min-width:769px){.section-lessons [data-node-id="87:543"]{align-items:stretch}.section-lessons [data-node-id="87:543"]>div{height:auto}}
+.section-lessons [data-node-id="87:543"]>div{justify-content:flex-start;align-items:flex-start}

@@ -1,0 +1,37 @@
+@font-face{font-family:Inter;src:url('assets/fonts/Inter-400.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Inter;src:url('assets/fonts/Inter-600.ttf') format('truetype');font-weight:600;font-display:swap}
+#consult-dialog{position:fixed;inset:0;margin:auto;border:0;border-radius:24px;padding:32px;width:720px;max-width:calc(100vw - 32px);max-height:calc(100dvh - 48px);height:fit-content;overflow-y:auto;color:#04080d;background:white;font:400 14px/1.45 Inter,sans-serif;letter-spacing:0}
+#consult-dialog.is-success{width:440px}
+#consult-dialog::backdrop{background:#06172b99;backdrop-filter:blur(4px)}
+#consult-body,#consult-form,#consult-form fieldset,#consult-success{display:flex;flex-direction:column;gap:20px}
+#consult-dialog p,#consult-dialog h2,#consult-dialog label{margin:0}
+.consult-title-row{display:flex;align-items:flex-start;gap:16px}
+#consult-dialog h2{font:600 28px/1.45 Inter,sans-serif;color:#04080d;flex:1;min-width:0}
+.dialog-close{flex:0 0 30px;width:30px;border:0;padding:0;background:transparent;color:#04080d;font:600 28px/1.45 Inter,sans-serif;text-align:left;cursor:pointer}
+#consult-dialog .muted{font-size:14px;line-height:1.45;color:#606770}
+#consult-dialog .consult-strong,#consult-form label>span{font-weight:600}
+.form-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+#consult-form fieldset{border:0;margin:0;padding:0;min-width:0}
+#consult-form label{display:flex;flex-direction:column;gap:8px;font-size:14px;min-width:0}
+#consult-form input,#consult-form select,#consult-form textarea{width:100%;min-width:0;box-sizing:border-box;border:1px solid #d5d9de;background:white;border-radius:12px;padding:13px 14px;font:400 14px/1.45 Inter,sans-serif;color:#04080d;min-height:48px}
+#consult-form input::placeholder,#consult-form textarea::placeholder{color:#606770;opacity:1}
+#consult-form select:has(option[value=""]:checked){color:#606770}
+#consult-student{appearance:none}
+#consult-form input:disabled{background:white;opacity:1;color:#606770}
+#consult-form textarea{height:68px;min-height:68px;resize:none;padding-top:14px}
+.consult-select-wrap{position:relative;min-width:0}
+#consult-form .consult-select-wrap select{appearance:none;height:50px;padding:5px 51px 5px 5px;text-overflow:ellipsis}
+.consult-select-wrap img{position:absolute;right:6px;top:6px;pointer-events:none;max-width:none}
+#consult-dialog :is(input,select,textarea,button,a):focus-visible{outline:2px solid #2b75cc;outline-offset:3px}
+#consult-dialog .form-submit{width:100%;min-height:50px;background:#2b75cc;color:white;border:0;border-radius:12px;padding:15px;font:600 14px/1.45 Inter,sans-serif;cursor:pointer}
+#consult-dialog .form-submit:disabled{opacity:.65;cursor:wait}
+#form-error,.field-error{color:#b42318;line-height:1.45;font-size:14px}
+#consult-form [aria-invalid=true]{border-color:#b42318}
+#consult-form .honey{position:absolute;left:-9999px;width:1px;height:1px;min-height:0;padding:0;border:0}
+#consult-dialog .muted a{color:inherit}
+[hidden]{display:none!important}
+html[lang=ko] #consult-dialog,html[lang=ko] #consult-dialog :is(h2,button,input,select,textarea){font-family:'Noto Sans KR',sans-serif;word-break:keep-all}
+html[lang=ko] [data-copy=site-65]{white-space:pre-line}
+@media(max-width:600px){#consult-dialog{padding:24px;max-height:calc(100dvh - 32px)}.form-grid{grid-template-columns:minmax(0,1fr);gap:20px}#consult-dialog h2{font-size:24px}}
+summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+html[lang=ko] .section,html[lang=ko] .footer{word-break:keep-all}
